@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Módulo 1 — Become a Rapid Developer</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.x/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Become a Rapid Developer</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#modulos">Módulos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#objetivos">Objetivos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#recursos">Recursos</a>
+            </li>
+          </ul>
+          <a class="btn btn-primary ms-lg-3" href="#">Empezar Módulo 1</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero / Introducción -->
+    <section class="py-5 text-center bg-primary text-white">
+      <div class="container">
+        <h1 class="display-4">Módulo 1: Introducción</h1>
+        <p class="lead">
+          Descubre qué es Mendix y cómo usar los recursos de la Academy para
+          comenzar tu ruta Rapid Developer.
+        </p>
+
+        <!-- Aquí puede ir un botón extra -->
+        <a href="#modulos" class="btn btn-light btn-lg mt-3">Ver módulos</a>
+      </div>
+    </section>
+
+    <!-- Sección de módulos -->
+    <section id="modulos" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Los módulos de Become a Rapid Developer</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <!-- Tarjeta por módulo -->
+          <!-- Por cada módulo -->
+
+          <div class="col">
+            <div class="card h-100 border-primary">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 1</h5>
+                <p class="card-text">
+                  Introducción: qué es Mendix, interface de la Academy, dónde
+                  encontrar los recursos.
+                </p>
+
+                <!-- Botón que abre el modal -->
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalModulo1"
+                >
+                  Ver más
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal fuera de la tarjeta -->
+          <div
+            class="modal fade"
+            id="modalModulo1"
+            tabindex="-1"
+            aria-labelledby="modalModulo1Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <!-- Puedes usar modal-xl si quieres más espacio -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalModulo1Label">
+                    Detalles del Módulo 1
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Cerrar"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <h5>📘 1.1 Welcome</h5>
+                  <p>
+                    Este apartado da la bienvenida al curso y establece el
+                    propósito de la ruta Rapid Developer. Mendix se presenta
+                    como una plataforma low-code que permite crear aplicaciones
+                    empresariales de forma rápida, colaborativa y visual. Se
+                    destaca que no es necesario tener experiencia previa en
+                    programación para comenzar, lo que democratiza el desarrollo
+                    de software. El enfoque está en aprender haciendo, con
+                    recursos interactivos y prácticos.
+                  </p>
+                  <hr />
+
+                  <h5>🧭 1.2 The Academy Interface</h5>
+                  <p>
+                    Aquí se explica cómo navegar por la Mendix Academy. Se
+                    muestra la estructura de los módulos, el sistema de
+                    seguimiento de progreso, los botones para avanzar o
+                    retroceder entre lecciones, y cómo acceder a recursos
+                    adicionales como foros, documentación y evaluaciones. Se
+                    enfatiza la importancia de marcar como completadas las
+                    lecciones para mantener un registro claro del avance.
+                  </p>
+
+                  <hr />
+                  <h5>🌐 1.3 Mendix Ecosystem</h5>
+
+                  <img src="img/ecosystema.png" alt="ecosistema Mendix" />
+                  <p>
+                    Este subtema ofrece una visión general del ecosistema
+                    Mendix, que incluye herramientas como Studio Pro (para
+                    desarrollo visual), Studio (para edición en la nube),
+                    Marketplace (para componentes reutilizables), y la Comunidad
+                    Mendix (para interacción entre desarrolladores). Se destaca
+                    cómo estas partes trabajan juntas para acelerar el
+                    desarrollo, fomentar la colaboración y facilitar la
+                    integración con sistemas empresariales.
+                  </p>
+                  <hr />
+
+                  <h5>💻 1.3.1 Download Mendix Studio Pro</h5>
+                  <p>
+                    Se guía al usuario paso a paso para descargar e instalar
+                    Mendix Studio Pro, el entorno principal de desarrollo. Se
+                    explican los requisitos del sistema, el proceso de
+                    instalación y cómo iniciar sesión con una cuenta Mendix.
+                    También se menciona la importancia de mantener la
+                    herramienta actualizada para acceder a nuevas funciones y
+                    mejoras.
+                  </p>
+                  <a
+                    href="https://marketplace.mendix.com/link/studiopro"
+                    target="_blank"
+                    >Descargar Mendix Studio Pro</a
+                  >
+                  <hr />
+
+                  <h5>👤 1.3.2 Set Up Your Community Profile</h5>
+                  <p>
+                    Este apartado enseña cómo configurar tu perfil en la
+                    Comunidad Mendix. Se recomienda agregar una foto, una
+                    biografía y tus intereses para facilitar la interacción con
+                    otros desarrolladores. Tener un perfil completo permite
+                    participar en foros, enviar ideas, recibir soporte y ganar
+                    visibilidad en la comunidad. También se menciona cómo
+                    vincular tu progreso académico al perfil.
+                  </p>
+                  <hr />
+                  <h5>📝 1.4 Summary</h5>
+                  <p>
+                    Se hace una recapitulación de los temas tratados: qué es
+                    Mendix, cómo funciona la Academy, qué herramientas conforman
+                    el ecosistema, y cómo comenzar con Studio Pro y la
+                    comunidad. Se refuerza la idea de que el desarrollo low-code
+                    es accesible, potente y colaborativo. Este resumen sirve
+                    como puente hacia los siguientes módulos más técnicos.
+                  </p>
+                  <hr />
+                  <h5>✅ 1.5 Knowledge Check</h5>
+                  <p>
+                    Se presenta una evaluación interactiva para validar lo
+                    aprendido. Las preguntas cubren conceptos clave como el
+                    propósito de Studio Pro, la visibilidad de componentes en el
+                    Marketplace, y la función de la Comunidad. Ejemplos:
+                    <br />
+                  </p>
+
+                  <div class="border p-3 rounded bg-light">
+                    <p>
+                      <strong>Pregunta 1:</strong> ¿Qué es Mendix Studio Pro?
+                    </p>
+                    <ul>
+                      <li>
+                        Una herramienta para analizar big data utilizando
+                        algoritmos avanzados de Business Intelligence.
+                      </li>
+                      <li>
+                        Una herramienta donde puede codificar su aplicación web
+                        usando HTML.
+                      </li>
+                      <li>
+                        <strong
+                          >✔ Una herramienta para crear, desarrollar e
+                          implementar aplicaciones innovadoras a la velocidad de
+                          la luz.</strong
+                        >
+                      </li>
+                      <li>
+                        Una herramienta de CRM que ofrece capacidades de CRM
+                        listas para usar.
+                      </li>
+                    </ul>
+
+                    <p>
+                      <strong>Pregunta 2:</strong> Quieres compartir algo en el
+                      Marketplace. Deseas que solo sea visible para las personas
+                      de tu empresa. ¿Es esto posible?
+                    </p>
+                    <ul>
+                      <li>No</li>
+                      <li><strong>✔ Sí</strong></li>
+                    </ul>
+
+                    <p>
+                      <strong>Pregunta 3:</strong> ¿Dónde puedes hacer preguntas
+                      a tus compañeros y enviar ideas para nuevas funciones para
+                      Mendix?
+                    </p>
+                    <ul>
+                      <li>Academia</li>
+                      <li><strong>✔ Comunidad</strong></li>
+                      <li>Apoyo</li>
+                      <li>Mercado</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fin del modal -->
+          <!-- Modal fuera de la tarjeta -->
+          <div
+            class="modal fade"
+            id="modalModulo2"
+            tabindex="-1"
+            aria-labelledby="modalModulo2Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalModulo2Label">
+                    Detalles del Módulo 2
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                    data-bs-dismiss="modal"
+                    aria-label="Cerrar"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <h5>🎯 2.0 Learning Objectives</h5>
+                  <p>
+                    Este módulo introduce los conceptos fundamentales de la
+                    planificación de aplicaciones en Mendix. Al finalizar, serás
+                    capaz de: comprender el ciclo de vida de una aplicación
+                    Mendix, definir casos de uso prácticos, aplicar metodologías
+                    ágiles de desarrollo, gestionar roles de usuario, construir
+                    equipos de trabajo colaborativos, crear historias de usuario
+                    y wireframes, y organizar el trabajo mediante épicas y
+                    sprints.
+                  </p>
+                  <hr />
+
+                  <h5>🔄 2.1 Application Lifecycle Management</h5>
+                  <p>
+                    Esta sección explica el ciclo de vida completo de una
+                    aplicación Mendix, desde la concepción hasta el despliegue y
+                    mantenimiento. Se cubren las diferentes fases:
+                    planificación, desarrollo, testing, despliegue y
+                    operaciones. Se enfatiza cómo Mendix facilita la gestión de
+                    cada etapa a través de sus herramientas integradas,
+                    permitiendo iteraciones rápidas y colaboración continua
+                    entre miembros del equipo.
+                  </p>
+
+                  <img src="img/ecosistema.png" alt="ciclos-ecosistema">
+                  <hr />
+
+                  <h5>📚 2.2 Our Use Case: LearnNow</h5>
+                  <p>
+                    Se presenta LearnNow, una aplicación de ejemplo que servirá
+                    como caso de estudio a lo largo del módulo. LearnNow es una
+                    plataforma de aprendizaje en línea que permite a los
+                    usuarios acceder a cursos, realizar seguimiento de su
+                    progreso y obtener certificaciones. Este caso práctico ayuda
+                    a contextualizar los conceptos teóricos en un escenario
+                    realista de desarrollo.
+                  </p>
+                  <hr />
+
+                  <h5>🚀 2.2.1 Create a New App</h5>
+                  <p>
+                    Guía paso a paso para crear una nueva aplicación en Mendix.
+                    Se explica cómo seleccionar una plantilla inicial, nombrar
+                    la aplicación, elegir el tipo de licencia y configurar los
+                    parámetros básicos. También se muestra cómo acceder al
+                    entorno de desarrollo y familiarizarse con la interfaz de
+                    Studio Pro recién creada.
+                  </p>
+
+                  <img src="img/create.png" alt="error">
+                  <hr />
+
+                  <h5>👁️ 2.2.2 Explore the Overview</h5>
+                  <p>
+                    Esta sección enseña a navegar por la vista general de una
+                    aplicación Mendix. Se explican los diferentes paneles y
+                    secciones: el explorador de proyectos, el editor de páginas,
+                    el editor de microflows, y las propiedades de los elementos.
+                    Se destaca cómo esta vista unificada permite tener una
+                    comprensión completa de la estructura de la aplicación.
+                  </p>
+
+                  <img src="img/explore.png" alt="error">
+                  <hr />
+
+                  <h5>👥 2.4 App Roles</h5>
+                  <p>
+                    Explicación detallada de los diferentes roles de usuario que
+                    pueden configurarse en una aplicación Mendix. Se cubren
+                    roles como Administrador, Usuario Final, Editor, etc., y
+                    cómo definir permisos específicos para cada uno. Se muestra
+                    cómo los roles controlan el acceso a datos, páginas y
+                    funcionalidades dentro de la aplicación.
+                  </p>
+                  <hr />
+
+                  <h5>🏗️ 2.3 Project Methodology</h5>
+                  <p>
+                    Se introduce la metodología ágil aplicada al desarrollo con
+                    Mendix. Se explican conceptos como Scrum, sprints, reuniones
+                    diarias y retrospectivas. Se muestra cómo Mendix se integra
+                    naturalmente con enfoques ágiles, permitiendo desarrollo
+                    iterativo, retroalimentación continua y entrega incremental
+                    de valor.
+                  </p>
+
+                  <img src="img/project.png" alt="error">
+                  <hr />
+
+                  <h5>🏗️ 2.4 App Roles</h5>
+                  <p>
+                    En Scrum, es importante tener pequeños equipos multifuncionales. De esa manera, hay una comunicación más efectiva, una documentación más fácil y una transferencia de conocimientos más rápida. 
+                    Cada proceso de Scrum necesita un par de roles vitales para tener éxito: el Product Owner, el Scrum Master y el Equipo de Desarrollo. En conjunto, estos roles comprenden el Equipo Scrum.
+                  </p>
+
+                  <img src="img/roles.png" alt="error">
+                  <hr />
+
+                  <h5>🤝 2.5 Build a Team in Mendix</h5>
+                  <p>
+                    Esta sección enseña cómo crear y gestionar equipos de
+                    desarrollo en Mendix. Se explican los diferentes roles
+                    dentro del equipo (desarrollador, analista de negocio,
+                    tester) y cómo asignar responsabilidades. Se destaca la
+                    importancia de la colaboración y cómo Mendix facilita el
+                    trabajo en equipo mediante funciones de control de versiones
+                    y comentarios.
+                  </p>
+
+                  <img src="img/build.png" alt="error">
+                  <hr />
+
+                  <h5>📧 2.5.1 Invite Members to your App</h5>
+                  <p>
+                    Guía práctica para invitar miembros al equipo de desarrollo
+                    de una aplicación. Se muestra cómo enviar invitaciones por
+                    correo electrónico, asignar roles específicos a cada miembro
+                    y gestionar permisos de acceso. También se explica cómo los
+                    nuevos miembros pueden aceptar invitaciones y comenzar a
+                    colaborar en el proyecto.
+                  </p>
+
+                  <img src="img/invite.png" alt="error">
+                  <hr />
+
+                  <h5>📖 2.6 User Stories</h5>
+                  <p>
+                    Se profundiza en la creación y gestión de historias de
+                    usuario en Mendix. Se explica el formato estándar de una
+                    historia de usuario ("Como [rol], quiero [acción] para
+                    [beneficio]") y cómo descomponer funcionalidades complejas
+                    en historias manejables. Se muestra cómo utilizar el panel
+                    de Stories en Mendix para organizar y priorizar el trabajo.
+                  </p>
+                  <hr />
+
+                  <h5>👨‍💼 2.7 Jimmy's User Story</h5>
+                  <p>
+                    Caso práctico que presenta la historia de usuario de Jimmy,
+                    un usuario ficticio de la aplicación LearnNow. Se analiza en
+                    detalle: "Como estudiante, quiero poder ver mi progreso en
+                    los cursos para saber cuánto me falta para completarlos".
+                    Este ejemplo concreto ayuda a entender cómo transformar
+                    necesidades de usuarios en requisitos técnicos específicos.
+                  </p>
+                  <hr />
+
+                  <h5>✏️ 2.8 Create a Wireframe</h5>
+                  <p>
+                    Introducción a la creación de wireframes en Mendix. Se
+                    explica qué son los wireframes, su importancia en el diseño
+                    de interfaces y cómo crearlos utilizando las herramientas de
+                    Mendix. Se cubren conceptos básicos de diseño UX y cómo los
+                    wireframes ayudan a validar ideas antes del desarrollo
+                    completo.
+                  </p>
+
+                  <img src="img/wireframe.png" alt="error">
+                  <hr />
+
+                  <h5>🏠 2.8.1 Create Wireframes for your Homepage</h5>
+                  <p>
+                    Tutorial práctico para crear wireframes de la página de
+                    inicio de LearnNow. Se guía paso a paso en el diseño de los
+                    elementos principales: menú de navegación, lista de cursos,
+                    área de progreso y secciones destacadas. Se muestran las
+                    herramientas de arrastrar y soltar de Mendix para agregar y
+                    configurar widgets básicos.
+                  </p>
+                  <hr />
+
+                  <h5>📋 2.9 Epics</h5>
+                  <p>
+                    Explicación del concepto de épicas en la planificación de
+                    proyectos Mendix. Se define qué son las épicas (agrupaciones
+                    de historias de usuario relacionadas) y cómo ayudan a
+                    organizar el trabajo en componentes lógicos. Se muestra cómo
+                    crear y gestionar épicas en Mendix, y cómo relacionarlas con
+                    las historias de usuario específicas.
+                  </p>
+
+                  <img src="img/board.png" alt="error">
+                  <hr />
+
+                  <h5>➕ 2.10 Adding User Stories</h5>
+                  <p>
+                    Se profundiza en las técnicas para agregar y gestionar
+                    historias de usuario en Mendix. Se cubren métodos como la
+                    creación manual, importación desde hojas de cálculo, y
+                    duplicación de historias existentes. También se explican
+                    mejores prácticas para describir criterios de aceptación y
+                    definir estimaciones de esfuerzo.
+                  </p>
+
+                  <img src="img/adding.png" alt="error">
+                  <hr />
+
+                  <h5>✨ 2.10.1 Add your First User Story</h5>
+                  <p>
+                    Tutorial práctico para crear la primera historia de usuario
+                    en el proyecto LearnNow. Se guía a través del proceso
+                    completo: definir el título, descripción, criterios de
+                    aceptación, asignar prioridad y estimar esfuerzo. Se muestra
+                    cómo vincular la historia de usuario con épicas y sprints
+                    específicos.
+                  </p>
+                  <hr />
+
+                  <h5>📥 2.10.2 Import User Stories</h5>
+                  <p>
+                    Instrucciones para importar múltiples historias de usuario
+                    desde archivos externos (como Excel o CSV). Se explica el
+                    formato requerido para la importación, cómo mapear columnas
+                    y validar la información importada. Esta técnica es útil
+                    para migrar historias de usuario desde otras herramientas de
+                    gestión de proyectos.
+                  </p>
+
+                  <img src="img/import.png" alt="error">
+                  <hr />
+
+                  <h5>🏗️ 2.10.3 Create Epics</h5>
+                  <p>
+                    Guía práctica para crear épicas en Mendix. Se muestra cómo
+                    definir épicas para agrupar funcionalidades relacionadas
+                    (como "Gestión de Cursos", "Seguimiento de Progreso",
+                    "Sistema de Certificaciones"). Se explica cómo asignar
+                    historias de usuario a épicas y cómo utilizar las épicas
+                    para planificar releases mayores.
+                  </p>
+
+                  <img src="img/epiccreate.png" alt="error">
+                  <hr />
+
+                  <h5>🏃 2.10.4 Start a New Sprint</h5>
+                  <p>
+                    Explicación de cómo iniciar y gestionar sprints en Mendix.
+                    Se cubre el proceso de planificación de sprint: seleccionar
+                    historias de usuario para incluir, definir objetivos del
+                    sprint, asignar tareas a miembros del equipo y establecer
+                    fechas de inicio y fin. También se muestra cómo realizar
+                    seguimiento del progreso durante el sprint.
+                  </p>
+
+                  <img src="img/startnew.png" alt="error">
+                  <hr />
+
+                  <h5>📝 2.11 Summary</h5>
+                  <p>
+                    Resumen de los conceptos clave del módulo: desde la creación
+                    de una aplicación hasta la planificación detallada mediante
+                    historias de usuario, épicas y sprints. Se refuerza la
+                    importancia de la metodología ágil y la colaboración en
+                    equipo. Este resumen prepara para el siguiente módulo que se
+                    enfocará en el desarrollo práctico de la aplicación.
+                  </p>
+                  <hr />
+
+                  <h5>✅ 2.12 Knowledge Check</h5>
+                  <p>
+                    Se presenta una evaluación interactiva para validar lo
+                    aprendido. Las preguntas cubren conceptos clave como la
+                    gestión del ciclo de vida de aplicaciones, creación de
+                    historias de usuario, configuración de roles, y metodologías
+                    ágiles. Ejemplos:
+                    <br />
+                  </p>
+
+                  <div class="border p-3 rounded bg-light">
+                    <p>
+                      <strong>Pregunta 1:</strong> ¿Cuál es el propósito
+                      principal del Application Lifecycle Management en Mendix?
+                    </p>
+                    <ul>
+                      <li>
+                        Gestionar únicamente la fase de desarrollo de la
+                        aplicación.
+                      </li>
+                      <li>
+                        Controlar solo los costos y presupuestos del proyecto.
+                      </li>
+                      <li>
+                        <strong
+                          >✔ Gestionar todas las fases de la aplicación desde la
+                          planificación hasta el mantenimiento.</strong
+                        >
+                      </li>
+                      <li>
+                        Administrar exclusivamente los permisos de los usuarios
+                        finales.
+                      </li>
+                    </ul>
+
+                    <p>
+                      <strong>Pregunta 2:</strong> ¿Qué formato sigue una
+                      historia de usuario bien definida?
+                    </p>
+                    <ul>
+                      <li>"El sistema debe permitir X funcionalidad"</li>
+                      <li>
+                        <strong
+                          >✔ "Como [rol], quiero [acción] para
+                          [beneficio]"</strong
+                        >
+                      </li>
+                      <li>"Desarrollar la función Y en Z tiempo"</li>
+                      <li>"Implementar módulo de seguridad"</li>
+                    </ul>
+
+                    <p>
+                      <strong>Pregunta 3:</strong> ¿Qué son las épicas en la
+                      planificación de proyectos Mendix?
+                    </p>
+                    <ul>
+                      <li>Historias de usuario muy largas y complejas</li>
+                      <li>Informes de errores del sistema</li>
+                      <li>
+                        <strong
+                          >✔ Agrupaciones de historias de usuario
+                          relacionadas</strong
+                        >
+                      </li>
+                      <li>Reuniones de planificación mensuales</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fin del modal -->
+
+          <!-- Tarjeta del módulo 2 -->
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Módulo 2: Planificación de Aplicaciones
+                </h5>
+                <p class="card-text">
+                  Agile y colaboración entre TI y negocio. Aprende a planificar
+                  aplicaciones Mendix usando metodologías ágiles, historias de
+                  usuario y gestión de equipos.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalModulo2"
+                >
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Módulo 3 -->
+<div
+  class="modal fade"
+  id="modalModulo3"
+  tabindex="-1"
+  aria-labelledby="modalModulo3Label"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalModulo3Label">
+          Detalles del Módulo 3
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Cerrar"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <h5>🎯 3.0 Learning Objectives</h5>
+        <p>
+          Este módulo introduce los fundamentos prácticos del desarrollo low-code en Mendix. Al finalizar, serás capaz de: navegar eficientemente por Mendix Studio Pro, crear páginas web utilizando layouts con columnas y filas, agregar y configurar botones funcionales, gestionar múltiples páginas y navegación entre ellas, identificar y corregir errores, utilizar el Team Server para control de versiones, y realizar commits de tus cambios de manera colaborativa.
+        </p>
+        <hr />
+
+        <h5>🏗️ 3.1 The Next Phase: Building your App</h5>
+        <p>
+          Esta sección marca la transición de la planificación a la construcción práctica de la aplicación. Se explica cómo llevar las historias de usuario y wireframes creados en el módulo anterior a una aplicación funcional. Se enfatiza el enfoque iterativo del desarrollo low-code y cómo Mendix permite construir prototipos funcionales rápidamente.
+        </p>
+
+        <img src="img/nectphase.png" alt="error">
+        <hr />
+
+        <h5>🔍 3.2 Explore Mendix Studio Pro</h5>
+        <p>
+          Tour guiado por la interfaz de Mendix Studio Pro. Se explican las principales áreas de trabajo: el Domain Model, Page Editor, Microflow Editor, y Properties Pane. Se muestra cómo personalizar el workspace según las preferencias del desarrollador y acceder a las herramientas más utilizadas en el desarrollo diario.
+        </p>
+
+        <img src="img/exploree.png" alt="error">
+        <hr />
+
+        <h5>🏠 3.2.1 Create the Home Page of your App</h5>
+        <p>
+          Tutorial práctico para crear la página de inicio de la aplicación LearnNow. Se guía paso a paso en la selección de templates, configuración de layouts básicos, y establecimiento de la página como home en la configuración de navegación. Se introducen conceptos fundamentales de diseño de interfaz de usuario.
+        </p>
+
+        <img src="img/home.png" alt="error">
+        <hr />
+
+        <h5>📐 3.3 Columns and Rows</h5>
+        <p>
+          Explicación detallada del sistema de layouts basado en columnas y filas en Mendix. Se cubren los diferentes tipos de contenedores, cómo crear estructuras responsivas, y mejores prácticas para organizar elementos visuales. Se muestra cómo utilizar el sistema de grillas para crear interfaces profesionales y adaptables.
+        </p>
+
+        <img src="img/navigation.png" alt="error">
+        <hr />
+
+        <h5>📏 3.3.1 Add Columns to your App</h5>
+        <p>
+          Ejercicio práctico para implementar columnas en la página de inicio. Se enseña a dividir el espacio en secciones, ajustar proporciones, y organizar widgets dentro de las columnas. Se explican técnicas para mantener consistencia visual y asegurar que el diseño sea responsive en diferentes dispositivos.
+        </p>
+
+        <img src="img/colums.png" alt="error">
+        <hr />
+
+        <h5>🔘 3.4 Buttons</h5>
+        <p>
+          Introducción a los diferentes tipos de botones disponibles en Mendix y sus casos de uso. Se cubren botones primarios, secundarios, de enlace, y sus variantes de estilo. Se explica cómo configurar acciones asociadas a los botones y definir comportamientos de interacción con el usuario.
+        </p>
+
+        <img src="img/button.png" alt="error">
+        <hr />
+
+        <h5>🖱️ 3.4.1 Add Buttons to your Home Page</h5>
+        <p>
+          Tutorial práctico para agregar botones funcionales a la página de inicio de LearnNow. Se muestra cómo colocar botones estratégicamente, configurar sus propiedades visuales (color, tamaño, iconos), y definir acciones básicas. Se enfatiza en la importancia de los call-to-action efectivos.
+        </p>
+
+        <img src="img/btnhome.png" alt="error">
+        <hr />
+
+        <h5>📄 3.5 Pages</h5>
+        <p>
+          Conceptos avanzados sobre creación y gestión de páginas en Mendix. Se explican los diferentes tipos de páginas (formularios, listas, dashboards), cómo organizarlas en la estructura de navegación, y técnicas para mantener consistencia entre páginas mediante el uso de layouts y building blocks reutilizables.
+        </p>
+
+        <img src="img/pagges.png" alt="error">
+        <hr />
+
+        <h5>🆕 3.5.1 Create Pages</h5>
+        <p>
+          Guía completa para crear nuevas páginas en la aplicación. Se cubre la selección de templates apropiados, configuración de títulos y URLs, y organización en carpetas lógicas. Se muestra cómo crear páginas para diferentes funcionalidades del caso LearnNow (lista de cursos, perfil de usuario, progreso).
+        </p>
+
+        <img src="img/createpages.png" alt="error">
+        <hr />
+
+        <h5>🔗 3.5.2 Link your Pages to the Buttons</h5>
+        <p>
+          Tutorial para conectar la navegación entre páginas mediante botones. Se enseña a configurar la acción "Show Page" en los botones, pasar parámetros entre páginas, y manejar diferentes flujos de navegación. Se incluyen ejemplos prácticos de navegación forward y backward.
+        </p>
+
+        <img src="img/linkpages.png" alt="error">
+        <hr />
+
+        <h5>⚠️ 3.6 Errors</h5>
+        <p>
+          Introducción al sistema de manejo de errores en Mendix. Se explica cómo identificar diferentes tipos de errores (de compilación, de consistencia, de runtime), utilizar el Error Pane para diagnosticar problemas, y aplicar fixes recomendados. Se enfatiza en la importancia de resolver errores antes del commit.
+        </p>
+        
+        <img src="img/errors.png" alt="error">
+        <hr />
+
+        <h5>☁️ 3.7 Team Server</h5>
+        <p>
+          Explicación del Team Server como sistema de control de versiones integrado en Mendix. Se cubren conceptos fundamentales de colaboración: branches, commits, updates, y merges. Se muestra cómo el Team Server facilita el trabajo en equipo y mantiene la integridad del proyecto.
+        </p>
+
+        <img src="img/teamsrver.png" alt="error">
+        <hr />
+
+        <h5>💾 3.7.1 Commit changes</h5>
+        <p>
+          Guía práctica para realizar commits de cambios en el Team Server. Se explica cómo escribir mensajes de commit descriptivos, seleccionar los cambios a incluir, y verificar el historial de commits. Se enfatizan las mejores prácticas para commits frecuentes y significativos.
+        </p>
+
+        <img src="img/commit.png" alt="error">
+        <hr />
+
+        <h5>🔎 3.8 Check Your Work</h5>
+        <p>
+          Técnicas para revisar y validar el trabajo desarrollado. Se cubren métodos de testing básicos: preview en browser, verificación de funcionalidades, testing de navegación, y revisión de consistencia visual. Se introduce el concepto de "click-through prototyping" para validar con stakeholders.
+        </p>
+
+        <img src="img/checkwork.png" alt="error">
+        <hr />
+
+        <h5>📝 3.9 Summary</h5>
+        <p>
+          Recapitulación de los conceptos fundamentales del desarrollo low-code cubiertos en el módulo. Se refuerza el flujo de trabajo desde la creación de páginas hasta el commit de cambios, destacando la potencia de Mendix para construir interfaces funcionales rápidamente. Preparación para módulos más avanzados de modelado de datos.
+        </p>
+
+        <img src="img/summary.png" alt="error">
+        <hr />
+
+        <h5>✅ 3.10 Knowledge Check</h5>
+        <p>
+          Se presenta una evaluación interactiva para validar la comprensión de los conceptos del módulo. Las preguntas cubren temas como: creación de layouts con columnas, configuración de botones, gestión de páginas, manejo de errores, y uso del Team Server. Ejemplos:
+          <br />
+        </p>
+
+        <div class="border p-3 rounded bg-light">
+          <p>
+    <strong>Pregunta 1:</strong> A page is responsive when:
+  </p>
+  <ul>
+    <li>
+      It allows dynamic data to be displayed.
+    </li>
+    <li>
+      It rotates as you rotate your mobile.
+    </li>
+    <li>
+      <strong>✔ It works and looks good on all devices.</strong>
+    </li>
+    <li>
+      It includes user interaction.
+    </li>
+  </ul>
+
+  <hr>
+
+  <p>
+    <strong>Pregunta 2:</strong> How many rows can a page have?
+  </p>
+  <ul>
+    <li>4</li>
+    <li><strong>✔ As many as you need</strong></li>
+    <li>1</li>
+    <li>12</li>
+  </ul>
+
+  <hr>
+
+  <p>
+    <strong>Pregunta 3:</strong> It is possible to place multiple widgets in a container.
+  </p>
+  <ul>
+    <li>False</li>
+    <li><strong>✔ True</strong></li>
+  </ul>
+
+  <hr>
+
+  <p>
+    <strong>Pregunta 4:</strong> You downloaded the latest version of the project from the Team Server and made some changes to the app. What do you need to do next so that your team members can view your changes?
+  </p>
+  <ul>
+    <li>Synchronize with the Team Server</li>
+    <li>Publish your app to the cloud</li>
+    <li>Update the user story from Running to Done</li>
+    <li><strong>✔ Commit your app to the Team Server</strong></li>
+  </ul>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fin del modal -->
+
+<!-- Tarjeta del módulo 3 -->
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h5 class="card-title">Módulo 3: Fundamentos de Desarrollo Low-Code</h5>
+      <p class="card-text">
+        Aprende los fundamentos prácticos del desarrollo low-code: creación de páginas, layouts, botones y navegación en Mendix Studio Pro.
+      </p>
+      <button 
+        type="button" 
+        class="btn btn-outline-primary" 
+        data-bs-toggle="modal" 
+        data-bs-target="#modalModulo3"
+      >
+        Ver detalles
+      </button>
+    </div>
+  </div>
+</div>
+          
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 4</h5>
+                <p class="card-text">
+                  Introducción a Mendix Studio y Studio Pro.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 5</h5>
+                <p class="card-text">Modelado de datos y lógica de negocio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 6</h5>
+                <p class="card-text">Creación de interfaces de usuario.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 7</h5>
+                <p class="card-text">Integración con servicios externos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 8</h5>
+                <p class="card-text">Pruebas y depuración de aplicaciones.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 9</h5>
+                <p class="card-text">Despliegue y gestión de aplicaciones.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 10</h5>
+                <p class="card-text">Mejores prácticas y casos de uso.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Módulo 11</h5>
+                <p class="card-text">
+                  Preparación para la certificación Rapid Developer.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ... hasta el módulo 11 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección objetivos del módulo 1 -->
+    <section id="objetivos" class="py-5 bg-light">
+      <div class="container">
+        <h2>Objetivos de aprendizaje del Módulo 1</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            Entender qué es Mendix y su ecosistema.
+          </li>
+          <li class="list-group-item">
+            Reconocer los componentes principales de la Academy.
+          </li>
+          <li class="list-group-item">
+            Saber navegar los módulos, unidades y knowledge checks.
+          </li>
+          <li class="list-group-item">
+            Conocer los requisitos para la certificación Rapid Developer.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Sección recursos -->
+    <section id="recursos" class="py-5">
+      <div class="container">
+        <h2>Recursos útiles</h2>
+        <ul>
+          <li><a href="https://academy.mendix.com/">Mendix Academy</a></li>
+          <li>
+            <a href="https://docs.mendix.com/"
+              >Documentación oficial de Mendix</a
+            >
+          </li>
+          <li>Tips: usar los “knowledge checks” para autoevaluación.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+      <div class="container text-center">
+        <p>&copy; 2025 Mendix Academy · Hugo Guerrero · UTNG</p>
+
+        <p>
+          <a href="#" class="text-white me-3">Privacidad</a>
+          <a href="#" class="text- white">Términos de uso</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.x/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
