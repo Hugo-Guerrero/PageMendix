@@ -901,16 +901,251 @@
   </div>
 </div>
           
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Módulo 4</h5>
-                <p class="card-text">
-                  Introducción a Mendix Studio y Studio Pro.
-                </p>
-              </div>
-            </div>
-          </div>
+          <!-- Modal para el Módulo 4 -->
+<div
+  class="modal fade"
+  id="modalModulo4"
+  tabindex="-1"
+  aria-labelledby="modalModulo4Label"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalModulo4Label">
+          Detalles del Módulo 4
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Cerrar"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <h5>🎯 4.0 Learning Objectives</h5>
+        <p>
+          Este módulo se enfoca en el manejo de datos dinámicos en aplicaciones Mendix. Al finalizar, serás capaz de: entender cómo mostrar datos dinámicos en páginas, crear y configurar un Domain Model, definir diferentes tipos de atributos, conectar galerías con fuentes de datos, utilizar parámetros para mostrar datos específicos, ejecutar y probar tu aplicación, crear menús de navegación, trabajar con objetos y crear páginas para editar y crear nuevos registros.
+        </p>
+        <hr />
+
+        <h5>📊 4.1 Dynamic Data on Pages</h5>
+        <p>
+          Introducción al concepto de datos dinámicos y cómo se diferencian de los datos estáticos. Se explica cómo Mendix permite mostrar información que cambia según los datos almacenados en la base de datos, y cómo los widgets pueden conectarse a estas fuentes de datos para crear experiencias interactivas y personalizadas para los usuarios.
+        </p>
+
+        <img src="img/location_overview.png" alt="Datos dinámicos en páginas">
+        <hr />
+
+        <h5>🏗️ 4.2 The Domain Model</h5>
+        <p>
+          Explicación detallada del Domain Model como el corazón de cualquier aplicación Mendix. Se cubren los conceptos fundamentales de entidades, atributos y asociaciones, y cómo representan la estructura de datos de la aplicación. Se muestra cómo crear y organizar entidades para modelar correctamente el dominio del negocio.
+        </p>
+
+        <img src="img/domail_model.png" alt="Modelo de dominio">
+        <hr />
+
+        <h5>📋 4.3 Attribute Types</h5>
+        <p>
+          Guía completa sobre los diferentes tipos de atributos disponibles en Mendix. Se explican atributos primitivos (String, Integer, Decimal, Boolean, DateTime), enumeraciones y tipos especializados. Se cubren las consideraciones para seleccionar el tipo de atributo apropiado según el tipo de dato que se necesita almacenar.
+        </p>
+
+        <img src="img/attribute-types.png" alt="Tipos de atributos">
+        <hr />
+
+        <h5>⚙️ 4.3.1 Define Attribute Types</h5>
+        <p>
+          Ejercicio práctico para definir tipos de atributos en las entidades del Domain Model. Se muestra cómo agregar atributos a entidades existentes, configurar sus propiedades (longitud, formato, valores por defecto) y aplicar validaciones. Se utilizan ejemplos del caso LearnNow para atributos de cursos y usuarios.
+        </p>
+
+        <img src="img/define-attributes.png" alt="Definir atributos">
+        <hr />
+
+        <h5>🔄 4.4 Display Dynamic Data</h5>
+        <p>
+          Técnicas para mostrar datos dinámicos en las páginas de la aplicación. Se explican los diferentes tipos de contenedores de datos (data views, list views, galleries) y cómo configurar su fuente de datos. Se cubre el concepto de contexto y cómo los datos fluyen a través de las páginas y microflows.
+        </p>
+
+        <hr />
+
+        <h5>🔗 4.4.1 Create and Connect Entities</h5>
+        <p>
+          Tutorial práctico para crear asociaciones entre entidades en el Domain Model. Se muestra cómo establecer relaciones uno-a-muchos y muchos-a-muchos, y cómo estas relaciones se reflejan en la interfaz de usuario. Se utiliza el ejemplo de cursos y módulos en LearnNow para demostrar las conexiones.
+        </p>
+
+        <img src="img/connect-entities.png" alt="Conectar entidades">
+        <hr />
+
+        <h5>🖼️ 4.4.2 Connect the Galleries</h5>
+        <p>
+          Guía paso a paso para conectar galerías con fuentes de datos. Se enseña cómo configurar list views y template grids para mostrar listas de objetos, personalizar la visualización de cada elemento, y agregar funcionalidades como filtrado y ordenamiento. Se implementa una galería de cursos en LearnNow.
+        </p>
+
+        <img src="img/connect-galleries.png" alt="Conectar galerías">
+        <hr />
+
+        <h5>🎯 4.4.3 Display Dynamic Data with Parameters</h5>
+        <p>
+          Técnicas avanzadas para mostrar datos específicos utilizando parámetros. Se explica cómo pasar parámetros entre páginas, filtrar datos basados en criterios específicos, y crear vistas detalladas de objetos individuales. Se implementa la funcionalidad de ver detalles de un curso específico en LearnNow.
+        </p>
+
+        <img src="img/data-parameters.png" alt="Datos con parámetros">
+        <hr />
+
+        <h5>🚀 4.5 Run your App</h5>
+        <p>
+          Procedimiento completo para ejecutar y probar la aplicación. Se cubre cómo iniciar la aplicación en diferentes entornos (local, sandbox), realizar testing de las funcionalidades implementadas, identificar y corregir errores en tiempo de ejecución, y utilizar las herramientas de debugging integradas en Mendix.
+        </p>
+
+        <img src="img/run-app.png" alt="Ejecutar aplicación">
+        <hr />
+
+        <h5>🧭 4.6 The Navigation Menu</h5>
+        <p>
+          Diseño e implementación del menú de navegación de la aplicación. Se explican los diferentes tipos de navegación (responsiva, sidebar, tab bar) y cómo configurar la estructura de menús en Mendix. Se cubren mejores prácticas para crear una experiencia de navegación intuitiva y consistente.
+        </p>
+
+        <img src="img/navigation-menu.png" alt="Menú de navegación">
+        <hr />
+
+        <h5>⚡ 4.6.1 Create the Navigation Menu</h5>
+        <p>
+          Ejercicio práctico para crear y personalizar el menú de navegación de LearnNow. Se muestra cómo agregar items de menú, organizarlos en grupos, configurar iconos y permisos de acceso, y asegurar que la navegación sea responsive en dispositivos móviles.
+        </p>
+
+        <img src="img/create-navigation.png" alt="Crear menú de navegación">
+        <hr />
+
+        <h5>📦 4.7 Objects</h5>
+        <p>
+          Conceptos fundamentales sobre objetos en Mendix. Se explica la diferencia entre entidades (definiciones) y objetos (instancias), cómo se crean y gestionan los objetos en tiempo de ejecución, y cómo persisten en la base de datos. Se cubre el ciclo de vida completo de un objeto.
+        </p>
+
+        <img src="img/objects.png" alt="Objetos">
+        <hr />
+
+        <h5>🆕 4.7.1 Use Buttons to Create Objects</h5>
+        <p>
+          Tutorial para implementar funcionalidad de creación de objetos mediante botones. Se muestra cómo configurar botones para crear nuevos objetos, inicializar sus atributos, y guardarlos en la base de datos. Se implementa la funcionalidad de "Crear nuevo curso" en LearnNow.
+        </p>
+
+        <img src="img/create-objects.png" alt="Crear objetos con botones">
+        <hr />
+
+        <h5>✏️ 4.8 New/Edit Pages</h5>
+        <p>
+          Diseño y creación de páginas para crear y editar objetos. Se explican los patrones comunes para formularios de entrada de datos, técnicas de validación, y manejo de diferentes estados (nuevo vs. edición). Se cubren mejores prácticas para crear experiencias de usuario efectivas en formularios.
+        </p>
+
+        <img src="img/edit-pages.png" alt="Páginas de edición">
+        <hr />
+
+        <h5>🛠️ 4.8.1 Create New/Edit Pages</h5>
+        <p>
+          Implementación práctica de páginas para crear y editar cursos en LearnNow. Se muestra cómo diseñar formularios eficientes, configurar data views para el contexto de edición, implementar validaciones de datos, y manejar las acciones de guardar y cancelar.
+        </p>
+
+        <img src="img/create-edit-pages.png" alt="Crear páginas de edición">
+        <hr />
+
+        <h5>📝 4.9 Summary</h5>
+        <p>
+          Recapitulación de los conceptos clave del módulo sobre trabajo con datos dinámicos. Se refuerza el flujo completo desde el modelado de datos en el Domain Model hasta la visualización y edición en la interfaz de usuario. Preparación para módulos más avanzados sobre lógica de negocio y microflows.
+        </p>
+
+        <hr />
+
+        <h5>✅ 4.10 Knowledge Check</h5>
+        <p>
+  Evaluación interactiva para validar la comprensión de los conceptos del módulo 4. Las preguntas cubren temas como: Domain Model, tipos de atributos, visualización de datos dinámicos, navegación, creación de objetos y páginas de edición.
+</p>
+
+        <div class="border p-3 rounded bg-light">
+          <p>
+    <strong>Question 1:</strong> A list view is a widget used to
+  </p>
+          <ul>
+            <li>Display bullet points</li>
+            <li> <strong>Display dynamic data</strong></li>
+            <li> Change text from horizontal to vertical view</li>
+            <li>Display static text</li>
+          </ul>
+
+          <hr>
+
+          <p>
+            <strong>Pregunta 2:</strong> The value 1.23 could be stored in an attribute of the type:
+          </p>
+          <ul>
+            <li>Long</li>
+            <li>AutoNumber</li>
+            <li><strong> Decimal</strong></li>
+            <li>Integer</li>
+          </ul>
+
+          <hr>
+
+          <p>
+            <strong>Pregunta 3:</strong> The attribute type Enumeration is used to store:
+          </p>
+          <ul>
+            <li>Automatically generated positive or negative whole number</li>
+            <li>A whole number that can only be positive</li>
+            <li>A positive or negative number</li>
+            <li> <strong>A list of predefined values</strong></li>
+          </ul>
+
+          <hr>
+
+          <p>
+            <strong>Pregunta 4:</strong> Which name should you use for an entity representing a maintenance report?
+          </p>
+          <ul>
+            <li>Maintenance-Report</li>
+            <li>Maintenance Report</li>
+            <li>Maintenance_Report</li>
+            <li><strong>MaintenanceReport</strong></li>
+          </ul>
+
+          <hr>
+
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fin del modal -->
+
+<!-- Tarjeta del módulo 4 -->
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h5 class="card-title">Módulo 4: Trabajando con Datos Dinámicos</h5>
+      <p class="card-text">
+        Aprende a manejar datos dinámicos, crear Domain Models, definir atributos y conectar interfaces con fuentes de datos en Mendix.
+      </p>
+      <button 
+        type="button" 
+        class="btn btn-outline-primary" 
+        data-bs-toggle="modal" 
+        data-bs-target="#modalModulo4"
+      >
+        Ver detalles
+      </button>
+    </div>
+  </div>
+</div>
           <div class="col">
             <div class="card h-100">
               <div class="card-body">
